@@ -4,13 +4,20 @@
   box-sizing: border-box;
 }
 
-body {
+.main-container{
   font: 1em sans-serif;
   text-align: center;
   padding: 20px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .counter {
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
