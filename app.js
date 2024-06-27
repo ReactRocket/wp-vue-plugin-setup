@@ -101,15 +101,16 @@ createApp({
       this.count--;
     }
   },
-  template: `
-    <div class="counter">
-      <h1>Counter: {{ count }}</h1>
-      <div class="counter-buttons">
-        <button @click="increment">+</button>
-        <button @click="decrement">-</button>
-      </div>
-    </div>
-  `,
+  template:'#my-template',
+  // template: `
+  //   <div class="counter">
+  //     <h1>Counter: {{ count }}</h1>
+  //     <div class="counter-buttons">
+  //       <button @click="increment">+</button>
+  //       <button @click="decrement">-</button>
+  //     </div>
+  //   </div>
+  // `,
   mounted() {
     console.log('The component has been mounted. It\'s accessible in the DOM.');
   }
